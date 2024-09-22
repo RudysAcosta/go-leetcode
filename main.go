@@ -6,5 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Println(array.SearchInsertPosition())
+	// fmt.Println(array.SearchInsertPosition())
+	test := array.PlusOne([]int{9, 9, 9})
+	fmt.Println(test)
 }
