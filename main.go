@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"leetcode/array"
 )
 
@@ -10,7 +9,11 @@ func main() {
 
 	// test := array.PlusOne([]int{9, 9, 9})
 
-	test := array.TwoSum([]int{3, 2, 4, 4}, 8)
+	// test := array.TwoSum([]int{3, 2, 4, 4}, 8)
 
-	fmt.Println(test)
+	// fmt.Println(test)
+
+	matrix := [][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}
+	array.RotateImage(matrix)
+
 }
