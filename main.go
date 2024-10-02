@@ -17,8 +17,8 @@ func main() {
 	// matrix := [][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}
 	// array.RotateImage(matrix)
 
-	nums := []int{1, 1, 0, 1, 1, 1}
+	nums := []int{-4, -1, 0, 3, 10}
 
-	fmt.Println(array.MaxConsecutiveOnes(nums))
+	fmt.Println(array.SquaresSorted(nums))
 
 }
