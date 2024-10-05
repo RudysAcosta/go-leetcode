@@ -26,7 +26,20 @@ func SquaresSortedTwoPoint(nums []int) []int {
 	pos := right
 
 	for left <= right {
-		leftSquare = nums[left] * nums[left]
+		leftSquare := nums[left] * nums[left]
+		rightSquare := nums[right] * nums[right]
+
+		if leftSquare > rightSquare {
+			result[pos] = leftSquare
+			left++
+		} else {
+			result[pos] = rightSquare
+			right--
+		}
+
+		pos--
 	}
+
+	return result
 
 }
