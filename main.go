@@ -1,6 +1,9 @@
 package main
 
-import "leetcode/array"
+import (
+	"fmt"
+	"leetcode/array"
+)
 
 func main() {
 	// fmt.Println(array.SearchInsertPosition())
@@ -14,10 +17,10 @@ func main() {
 	// matrix := [][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}
 	// array.RotateImage(matrix)
 
-	nums := []int{0, 1, 7, 1, 7, 6, 0, 0}
+	nums := []int{1, 2, 4, 2, 4, 4, 3}
 
 	// fmt.Println(array.SquaresSorted(nums))
 
-	array.DuplicateZeros(nums)
+	fmt.Println(array.RemoveElement(nums, 4))
 
 }
